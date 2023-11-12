@@ -1,0 +1,11 @@
+.btn1 {
+    width: 84px; background-color: rgb(18, 103, 72);
+    color: white;
+}
+.btn2 {
+    background-color: rgb(178, 111, 198);
+    color: white;
+}
+hr {
+    border: 1px solid rgb(255, 255, 255); /* ความหนาของเส้น */
+}

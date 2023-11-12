@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@300&family=Krub&family=Maitree:wght@300&display=swap');
+h4 {
+    font-size: 15px;
+    margin-bottom: -20px;
+}
+h3 {
+    font-size: 19px;
+}
+hr {
+    border: 1px solid #000000; /* ความหนาของเส้น */
+    visibility: hidden;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+.h1list {
+    font-size: 40px;
+}
+p {
+    line-height: 3px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+.song-card {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+.song-card {
+    transition: transform 0.2s ease;
+}
+
+.song-card:hover {
+    transform: scale(1.05); /* เพิ่มขนาดของ card เมื่อ hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* เพิ่มเงาเมื่อ hover */
+}
+.song-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.song-artist {
+    font-size: 16px;
+    opacity: 80%;
+}
+
+.song-details {
+    font-size: 14px;
+    opacity: 50%;
+}
